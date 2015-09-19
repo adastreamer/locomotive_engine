@@ -34,3 +34,10 @@ group :development do
   gem 'spring'
 end
 
+gem 'locomotivecms', '~> 3.0.0.pre.beta.1',  git: 'git://github.com/locomotivecms/engine', tag: 'v3.0.0.pre.beta.1'
+
+group :assets do
+  gem 'compass-rails'
+  gem 'coffee-rails'
+  gem 'therubyracer', platforms: :ruby
+end
